@@ -1,0 +1,290 @@
+body{  
+    font-family: 'Courier New', Courier, monospace;
+    background-color:  skyblue ;
+    margin: 0%;
+    color: black;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+nav ul{
+    display: flex;
+    justify-content: end;
+    padding: 1rem;
+    gap: 5rem;
+}
+h1{
+    margin-top: 3rem;
+    font-weight: 300;
+    font-size: 3rem;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    border-radius: 2rem;
+    border-color: blue;
+}
+nav li{
+    list-style: none;
+}
+.hire{
+    border: 0.2rem;
+    border-radius: 3rem;
+    color: blue;
+    border-color: blue;
+    border-style: solid;
+    margin-top: -0.95rem;
+    padding: 1rem;
+}
+nav a:hover{
+    color: white;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+    padding-right: 1rem;
+    gap: 5rem;
+}
+.field{
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.Button{
+    color: white;
+    background-color: blue;
+    border: 0.3rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 7rem;
+    
+}
+.Button:hover{
+    background-color: skyblue;
+}
+.Services{
+    text-align: center;
+    background-color:  rgb(172, 222, 241) ;
+    padding-bottom: 5rem;
+}
+div ul{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 1rem;
+        margin-top: 3rem;
+}
+.Services li{
+    list-style: none;
+}
+div h2{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+.Button2{
+    color: white;
+    background-color: blue;
+    border: 0.3rem;
+    border-radius:0%;
+    padding: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 7rem;
+   box-shadow: 0 0 2rem rgba(0, 0, 0, 0.425);
+   margin-top: -0.5rem;
+}
+.Portfolio li{
+    list-style: none;
+}
+.Portfolio ul{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+   
+}
+.Portfolio3{
+    background-color:rgb(172, 222, 241);
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    
+}
+.Portfolio2{
+    padding-right: 1rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.Portfolio2 ul{
+    padding-inline-start: 0;
+    margin-top: 0%;
+}
+.Portfolio ul{
+    padding-inline-start: 0;
+}
+
+.Paragraph1{
+    margin-bottom: 0%;
+}
+.Paragraph2{
+    margin-top: 0%;
+}
+.hireMe{
+    border: 0.2rem;
+    border-radius: 3rem;
+    color: blue;
+    border-color: blue;
+    border-style: solid;
+    margin-top: -0.2rem;
+    padding: 1rem;
+}
+div li{
+    list-style: none;
+}
+.hireMe a:hover{
+   
+    color: white;
+}
+.hireMe a{
+    text-decoration: none;
+}
+.Feedback{
+    display: flex;
+    justify-content: center;
+    font-weight: 250;
+    font-size: 4rem;  
+    margin-bottom: 0;
+}
+.Feedback1{
+    display: flex;
+    justify-content: center;
+    font-weight: 250;
+    font-size: 4rem;  
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.Feedback2{
+    display: flex;
+    justify-content: center;
+}
+.Feedback3{
+    display: flex;
+    justify-content: center;
+}
+.Feedback4{
+    display: flex;
+    justify-content: center;
+}
+.FeedbackImg{
+    display: flex;
+    justify-content: center;
+}
+.End{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  rgb(172, 222, 241) ;
+    padding-bottom: 0rem;
+    gap: 200rem;
+}
+.nav2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  rgb(172, 222, 241) ;
+    padding-bottom: 0rem;
+    gap: 200rem;
+}
+.nav2 a{
+    text-decoration: none;
+    color: black;
+}
+.nav2 ul{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.paragraph{
+    font-size: 2rem;
+}
+.search{
+    border: 0.2rem;
+    border-radius: 3rem;
+    color: blue;
+    border-color: blue;
+    border-style: solid;
+    margin-top: -0.5rem;
+    padding-right: 5rem;
+    padding-top: 0.2rem;
+    padding-left: 0.2rem;
+
+}
+article img{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+section img{
+    width: 20rem;
+}
+.heading2{
+    font-stretch: expanded;
+}
+
+.Feedback5{
+    display: flex;
+    justify-content: center;
+    font-weight:bold;
+}
+.Feedback6{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+.Services img{
+    width: 2rem;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  rgb(172, 222, 241) ;
+    padding-top: 0rem;
+    gap: 200rem;
+}
+.End a:hover{
+    color: white;
+}
+.icons ul{
+    margin-top: 1rem;
+}
+.result img{
+    width: 6rem;
+    border-radius: 100%;
+}
+.icons img{
+    width: 2rem;
+}
+.icon ul{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:  rgb(172, 222, 241) ;
+    padding-bottom: 0rem;
+    gap: 3rem;
+   
+}
+.twitter{
+    background-color: blue;
+    border: 0.1rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 2rem;
+    width: 1rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.425);
+    margin-top: -0.2rem;
+}
