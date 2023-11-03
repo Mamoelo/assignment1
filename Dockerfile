@@ -1,4 +1,6 @@
-FROM ubuntu:latest
+ARG BASE_IMAGE
+
+FROM $BASE_IMAGE
 
 RUN apt-get update
 RUN apt-get -y install nginx
